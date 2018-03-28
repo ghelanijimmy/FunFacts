@@ -47,6 +47,7 @@
                         <color key="backgroundColor" red="0.3529411764705882" green="0.73333333333333328" blue="0.70980392156862748" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="k9w-4s-8hv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="0np-g7-991"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="k9w-4s-8hv" secondAttribute="trailing" constant="243" id="2FX-gn-TzX"/>
                             <constraint firstItem="5g6-OR-SoJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Cvz-UQ-V1A"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5IP-ve-Nd8" secondAttribute="trailing" constant="20" id="Nkc-Sr-X2Q"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="5IP-ve-Nd8" secondAttribute="bottom" constant="80" id="Nkn-8Y-MQz"/>
