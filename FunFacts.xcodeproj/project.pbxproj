@@ -12,6 +12,7 @@
 		9611983620609BBD002DC30B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9611983420609BBD002DC30B /* Main.storyboard */; };
 		9611983820609BBD002DC30B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9611983720609BBD002DC30B /* Assets.xcassets */; };
 		9611983B20609BBD002DC30B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9611983920609BBD002DC30B /* LaunchScreen.storyboard */; };
+		96D16D3E2069EB0700110207 /* factProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D16D3D2069EB0700110207 /* factProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9611983720609BBD002DC30B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9611983A20609BBD002DC30B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9611983C20609BBD002DC30B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96D16D3D2069EB0700110207 /* factProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = factProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				9611983720609BBD002DC30B /* Assets.xcassets */,
 				9611983920609BBD002DC30B /* LaunchScreen.storyboard */,
 				9611983C20609BBD002DC30B /* Info.plist */,
+				96D16D3D2069EB0700110207 /* factProvider.swift */,
 			);
 			path = FunFacts;
 			sourceTree = "<group>";
@@ -91,7 +94,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "JGDesign Solutions";
 				TargetAttributes = {
 					9611982C20609BBD002DC30B = {
@@ -138,6 +141,7 @@
 			files = (
 				9611983320609BBD002DC30B /* ViewController.swift in Sources */,
 				9611983120609BBD002DC30B /* AppDelegate.swift in Sources */,
+				96D16D3E2069EB0700110207 /* factProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +181,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -184,6 +189,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -234,6 +240,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -241,6 +248,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;

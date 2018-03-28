@@ -10,9 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var funFaceLabel: UILabel!
+    
+    let factProvider = FactProvider()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        funFaceLabel.text = factProvider.randomFact()
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +25,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func showFact() {
+        funFaceLabel.text = factProvider.randomFact()
+    }
+    
 }
 
