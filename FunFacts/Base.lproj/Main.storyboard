@@ -31,6 +31,12 @@
                                     <action selector="showFact" destination="BYZ-38-t0r" eventType="touchUpInside" id="xP4-Gk-oPJ"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Did You Know" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k9w-4s-8hv">
+                                <rect key="frame" x="20" y="160" width="112" height="22"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You are born with 300 bones; by the time you are an adult you will have 206." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5g6-OR-SoJ">
                                 <rect key="frame" x="20" y="311.5" width="335" height="43"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
@@ -40,9 +46,11 @@
                         </subviews>
                         <color key="backgroundColor" red="0.3529411764705882" green="0.73333333333333328" blue="0.70980392156862748" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="k9w-4s-8hv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="0np-g7-991"/>
                             <constraint firstItem="5g6-OR-SoJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Cvz-UQ-V1A"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5IP-ve-Nd8" secondAttribute="trailing" constant="20" id="Nkc-Sr-X2Q"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="5IP-ve-Nd8" secondAttribute="bottom" constant="80" id="Nkn-8Y-MQz"/>
+                            <constraint firstItem="k9w-4s-8hv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="140" id="NrS-R8-w2X"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5g6-OR-SoJ" secondAttribute="trailing" constant="20" id="Yhq-K2-S1w"/>
                             <constraint firstItem="5IP-ve-Nd8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ctL-zy-23H"/>
                             <constraint firstItem="5g6-OR-SoJ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="mlA-gh-UUv"/>
@@ -51,6 +59,7 @@
                     </view>
                     <connections>
                         <outlet property="funFaceLabel" destination="5g6-OR-SoJ" id="pHT-hu-twq"/>
+                        <outlet property="funFactButton" destination="5IP-ve-Nd8" id="X5J-PU-guu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
